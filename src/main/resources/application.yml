@@ -2,7 +2,7 @@ spring:
   application:
     name: apigatewayserver
 server:
-  port: 10000
+  port: 8765
 zuul:
   routes:
     vendormicro:

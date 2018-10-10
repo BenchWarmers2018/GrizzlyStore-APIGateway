@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class AuthorizationFilter extends ZuulFilter {
     @Override
     public String filterType() {
-        return "route";
+        return "pre";
     }
 
     @Override

@@ -4,6 +4,7 @@ spring:
 server:
   port: 8765
 zuul:
+  sensitiveHeaders: Authorization,Cookie,Set-Cookie,User-Details
   routes:
     vendormicro:
       path: /vendor/**
